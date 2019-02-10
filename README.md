@@ -1,4 +1,4 @@
-# ratts-server_docker-install
+# ratts-server_docker-install: v1.0
 Instalador da imagem docker (ratts-server)
 instale as versões mais recentes do container docker ratts-server
 mais informações: [ratts-server](https://hub.docker.com/r/ratts13/ratts-server)
@@ -18,7 +18,7 @@ agora ele vai baixar e executar a imagem.
 
 ## Funções basicas
 
-Para sair da sua imagem e voltar para o host (desligando o server): **exit ou ctrl+d**
-para sair da sua imagem e voltar para o host (sem desligar o server) **ctrl + p + q**
-detalhes da imagem em execução: **sudo docker ps**
-voltar para a linha de comando do containner: **sudo docker attach [[id da imagem]]**
+- Para sair da sua imagem e voltar para o host (desligando o server): **exit ou ctrl+d**
+- para sair da sua imagem e voltar para o host (sem desligar o server) **ctrl + p + q**
+- detalhes da imagem em execução: **sudo docker ps**
+- voltar para a linha de comando do containner: **sudo docker attach id_da_imagem**
