@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-# This script is meant for quick & easy install via:
+# Installador docker V1.0
 #   $ curl -fsSL https://get.docker.com -o get-docker.sh
 #   $ sh get-docker.sh
 #
