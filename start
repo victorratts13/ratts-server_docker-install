@@ -1,0 +1,7 @@
+clear
+echo -e "\033[01;32m Instalador ratts-server V1.0 \033[01;37m"
+echo -e "\033[01;34m insira a senha para carregar apt e dependencias:"
+sudo apt update
+sudo apt-get update
+echo -e "\033[01;32m iniciando imagem do server, aguarde: \033[01;37m" 
+sudo docker run -i -t -p 80:80 -p 3306:3306 ratts13/ratts-server:1.1 /bin/bash
