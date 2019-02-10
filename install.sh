@@ -1,25 +1,20 @@
 #!/bin/sh
 set -e
 
-# Installador docker V1.0
-#   $ curl -fsSL https://get.docker.com -o get-docker.sh
-#   $ sh get-docker.sh
+# Instalador docker V1.0
+# create by: Victor Ratts 
+#   $ curl -fsSL https://raw.githubusercontent.com/victorratts13/ratts-server_docker-install/master/install.sh -o install.sh
+#   $ sh install.sh
 #
-# For test builds (ie. release candidates):
-#   $ curl -fsSL https://test.docker.com -o test-docker.sh
-#   $ sh test-docker.sh
 #
-# NOTE: Make sure to verify the contents of the script
-#       you downloaded matches the contents of install.sh
-#       located at https://github.com/docker/docker-install
-#       before executing.
+# NOTA: partes desta copilação foram adquiridas e implementadas
+# a partir de https://get.docker.com onde parte dos direitos são mantidos
 #
-# Git commit from https://github.com/docker/docker-install when
-# the script was uploaded (Should only be modified by upload job):
+# Este é apenas um sistema de automação. Criada para facilitar a instalação e aquisição do Docker
 SCRIPT_COMMIT_SHA=4957679
 
 
-# This value will automatically get changed for:
+# este sistema vai carregar automaticamente:
 #   * edge
 #   * test
 #   * experimental
@@ -506,3 +501,7 @@ do_install() {
 # wrapped up in a function so that we have some protection against only getting
 # half the file during "curl | sh"
 do_install
+
+echo -e "\003[01;32m Sistema instalado com exito, Obg por usar o sistema \033[01;37m"
+
+echo -e "\003[01;29m Criado e mantido por: Victor Ratts \033[01;37m"
