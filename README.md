@@ -3,7 +3,7 @@ Instalador da imagem docker (ratts-server)
 instale as versões mais recentes do container docker ratts-server
 mais informações: [ratts-server](https://hub.docker.com/r/ratts13/ratts-server)
 
-## Instalação:
+## Instalação Docker:
 ### metodo 01
 no terminal, execute **curl -sSL https://raw.githubusercontent.com/victorratts13/ratts-server_docker-install/master/install.sh | sh** e dê um enter e aguarde a instalação do docker em sua maquina.
 ### metodo 02
