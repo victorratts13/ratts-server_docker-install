@@ -12,7 +12,7 @@ no terminal, execute **curl -sSL https://raw.githubusercontent.com/victorratts13
 ### metodo 02
 execute **chmod +x install.sh** para tornar o arquivo executavel e depois execute-o com **./install.sh**
 
-# Ultilizando o Ratts-server Start
+# Utilizando o Ratts-server Start
 
 ## Requisitos
 Ter git instalado em sua maquina (fisica ou virtual)
