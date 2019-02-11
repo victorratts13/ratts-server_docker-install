@@ -1,7 +1,7 @@
 # ratts-server_docker-install: v1.0
-Instalador da imagem docker (ratts-server)
-instale as versões mais recentes do container docker ratts-server
-mais informações: [ratts-server](https://hub.docker.com/r/ratts13/ratts-server)
+Instalador da imagem docker (ratts-server).
+Instale as versões mais recentes do container docker ratts-server.
+Mais informações: [ratts-server](https://hub.docker.com/r/ratts13/ratts-server)
 
 Para ultilizar o sistema de automação do **ratts-server**, é nescessário ter o Docker instalado.
 Caso não tenha baixado, segue abaixo os metodos de instalação do docker:
